@@ -5,8 +5,8 @@
         id = "com.borhanolhaqq.mobile"
         versionCode = "1"
         version   = "0.0.1">
-    <name>CORONA-SAFE</name>
-    <description>An app to keep actual and verified news about CORONA</description>
+    <name>HOME-SAFE</name>
+    <description>An app to keep actual and verified news</description>
     <author email="ms@taketwotechnologies.com" href="https://taketwotechnologies.com">Take2 Technologies</author>
     <content src="index.html" />
     <access origin="*" />
