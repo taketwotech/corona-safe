@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
-        xmlns:android = "http://schemas.android.com/apk/res/android"
-        id = "com.borhanolhaqq.mobile"
-        versionCode = "1"
-        version   = "0.0.1">
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.taketwotech.homesafe" version="0.0.1" versionCode="1" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>HOME-SAFE</name>
     <description>An app to keep actual and verified news</description>
     <author email="ms@taketwotechnologies.com" href="https://taketwotechnologies.com">Take2 Technologies</author>
