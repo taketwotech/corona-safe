@@ -9,7 +9,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build-app": "node phonegap-build.js"
   },
   "private": true,
   "dependencies": {
@@ -24,6 +25,8 @@
     "@ionic-native/status-bar": "^5.0.0",
     "@ionic/angular": "^5.0.0",
     "core-js": "^2.5.4",
+    "onesignal-cordova-plugin": "^2.8.4",
+    "phonegap-build-api": "^1.0.0",
     "rxjs": "~6.5.1",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"
@@ -49,7 +52,14 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
-    "typescript": "~3.4.3"
+    "typescript": "~3.4.3",
+    "@babel/compat-data": "~7.8.0",
+    "ionic-to-phonegap-build": "https://github.com/Sunilchhipa/ionic-to-phonegap-build.git#1.2"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "cordova": {
+    "plugins": {
+      "onesignal-cordova-plugin": {}
+    }
+  }
 }
